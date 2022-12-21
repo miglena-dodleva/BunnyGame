@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/scoreLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/score"
+        android:textSize="20sp"
+        android:textColor="#000"
+        android:background="#ffffff"/>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="664dp"
+        android:background="@drawable/forest">
+
+        <TextView
+            android:id="@+id/startLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tap_to_start"
+            android:textSize="24sp"
+            android:textColor="#000"/>
+
+
+        <ImageView
+            android:id="@+id/bunny"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/bunny"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/carrot"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/carrot"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/wolf"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/wolf"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/cabbage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/cabbage"
+            tools:ignore="ContentDescription" />
+
+    </FrameLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
